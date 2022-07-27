@@ -1,0 +1,53 @@
+Website
+A website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server.
+•	Static
+•	Dynamic
+Internet
+The Internet is a vast network that connects computers all over the world. Through the Internet, people can share information and communicate from anywhere with an Internet connection.
+•	DSL (digital subscriber line)
+•	cable broadband.
+•	fibre optic broadband.
+•	wireless or Wi-Fi broadband.
+•	satellite and mobile broadband.
+•	dedicated leased line.
+
+LAN - Local Area Network. WLAN - Wireless Local Area Network. WAN - Wide Area Network. MAN - Metropolitan Area Network.
+
+WWW
+WWW stands for World Wide Web. A technical definition of the World Wide Web is : all the resources and users on the Internet that are using the Hypertext Transfer Protocol (HTTP). The World Wide Web is the universe of network-accessible information, an embodiment of human knowledge.
+HTTP
+"Hypertext Transfer Protocol." HTTP is the protocol used to transfer data over the web. It is part of the Internet protocol suite and defines commands and services used for transmitting webpage data. The HTTP server is typically a web host running web server software, such as Apache or IIS.
+DNS
+An application layer protocol defines how the application processes running on different systems, pass the messages to each other.
+o	DNS stands for Domain Name System.
+o	DNS is a directory service that provides a mapping between the name of a host on the network and its numerical address.
+o	DNS is required for the functioning of the internet.
+o	Each node in a tree has a domain name, and a full domain name is a sequence of symbols specified by dots.
+DNS NAMES
+ 
+WEB BROWSER
+A web browser is a software application for accessing information on the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device.
+WEB SERVER
+A web server is a computer that runs websites. It's a computer program that distributes web pages as they are requisitioned. The basic objective of the web server is to store, process and deliver web pages to the users. This intercommunication is done using Hypertext Transfer Protocol (HTTP).
+web servers include Apache, Microsoft's Internet Information Services (IIS).
+HTTP METHODS
+  GET
+The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+HEAD
+The HEAD method asks for a response identical to that of a GET request, but without the response body.
+POST
+The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+PUT
+The PUT method replaces all current representations of the target resource with the request payload.
+DELETE
+The DELETE method deletes the specified resource.
+PATCH
+The PATCH method is used to apply partial modifications to a resource.
+COOKIES
+Cookies are text files with small pieces of data — like a username and password — that are used to identify your computer as you use a computer network. ... Data stored in a cookie is created by the server upon your connection
+SESSION
+A session is a way to store information (in variables) to be used across multiple pages.
+Unlike a cookie, the information is not stored on the users computer.
+HTTPS
+Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particularly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider.
+

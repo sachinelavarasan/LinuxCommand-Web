@@ -1,0 +1,195 @@
+Linux
+•	Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc.
+•	An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it.
+•	The Linux OS was developed by Linus Torvalds in 1991, which sprouted as an idea to improve the UNIX OS.
+•	Linux is around us since the mid-90s. It can be used from wristwatches to supercomputers. It is everywhere in our phones, laptops, PCs, cars and even in refrigerators.
+ Structure Of Linux Operating System
+    
+Usage
+ 
+
+Linux users
+•	Google. Perhaps the best-known major company to use Linux on the desktop is Google, which provides the Goobuntu OS for staff to use. ...
+•	NASA. 
+•	French Gendarmerie. 
+•	US Department of Defense.
+•	CERN
+Disadvantages of Linux OS 
+•	No single way of packaging software.
+•	No standard desktop environment.
+•	Poor support for games.
+•	Desktop software is still rare.
+Ubuntu
+Linux is a generic term which is kernel and has several distributions whereas Ubuntu is one of the Linux kernel based distribution. Linux is secure and most of the Linux distributions do not need anti-virus to install whereas Ubuntu, a desktop-based operating system is super-secure among Linux distributions.
+Distro
+Short for distribution, distro is a term used to describe a specific distribution of Linux that is built from the common Linux operating system and includes additional applications. Red Hat, Debian and SuSe are all examples of a distro.
+https://en.wikipedia.org/wiki/List_of_Linux_distributions
+Desktop Environment in Linux
+A desktop environment is the bundle of components that provide you common graphical user interface (GUI) elements such as icons, toolbars, wallpapers, and desktop widgets. you can use Linux graphically using your mouse and keyboard like you do in other operating systems like Windows and macOS.
+
+Types
+•	GNOME 3 Desktop. 
+•	KDE Plasma 5. 
+•	Cinnamon Desktop.
+•	MATE Desktop.
+•	Unity Desktop.
+•	Xfce Desktop.
+
+Console
+•	The Linux console is a system console internal to the Linux kernel. The Linux console provides a way for the kernel and other processes to send text output to the user, and to receive text input from the user. 
+•	The user typically enters text with a computer keyboard and reads the output text on a computer monitor.
+Terminal
+terminal allows us to send simple text commands to our computer to do things like navigate through a directory or copy a file, and form the basis for many more complex automations and programming skills.
+Linux commands
+#- date
+#- cal
+a- cal 2018
+b- cal 12 2018
+#- clear
+clears screen.
+#- ls - list directory contents
+a) ls -l or ll
+To list files in the current directory with detailed
+info.
+b) ls -lt
+To list files in the current directory with detailed info sorted by 
+date and time with the newest file first.
+c) ls -lh
+To list files in the current directory with their 
+size in human readable format.
+d) ls -la
+To list all files including the hidden files with 
+detailed info.
+e) ls -ltr
+To list files in the current directory with detailed info sorted by 
+date and time with the newest file first.
+#- PWD
+Print working directory or your current location.
+#- CD
+Change directory.
+a- cd  /usr/bin
+b- cd  ~ or cd takes your user's home directory
+c- cd ~user (another users's home directory)
+d- cd /
+e- cd -   (takes you to the previous directory)
+f- cd ..  (go up one level)
+#- who
+Lists currently logged-in users.
+#- whoami and who am i 
+Lists which user id you are logged in as currently.
+#- w
+Shows who is logged in and what they are doing.
+#- logname
+Print user's login name (even if user has switched 
+ID)
+#- id 
+id test - Print user and group id and group info
+#- groups
+Print the groups a user is part of.
+ Copy file1 and name the copied file file2
+#- cp file1 file2
+- Delete a file
+#- rm file2
+#- rm -f filename (without asking for confirmation)
+Rename or move a file
+#- mv file1 to file3
+- Create a Directory called dir1
+#- mkdir dir1
+- Remove a directory
+#- rmdir dir1
+- Remove a directory with files in it.
+#- rm -rf dir1
+-r = recursively
+-f = forcefully
+- List history of your commands
+#- history
+#- hostname
+- Lists your system name
+
+#- hostnamectl
+- Lists hostname and other system details
+#- hostnamectl set-hostname linux
+- Set your hostname to linux
+- Reboot 
+#- cat /etc/hostname 
+- Can also be changed by editing the file 
+#- Absolute Path: 
+
+- Starts with /, for example: /home/test
+- touch filename /home/test
+#- Relative Path:
+- Does not start with /
+- Depends on your current directory
+- Current directory is /home/test then;
+- touch filename (Creates file in current directory)
+# Command Path
+ - which cd
+ - which cat
+ - which touch
+Note: Which command shows the path to the command 
+when run without using absolute path.
+Path: /usr/bin/cd, /usr/bin/cat, /usr/bin/touch
+- cd /bin
+- ls (shows all commands)
+
+Compression Tools:
+- Compression tools are used to compress one or
+more files or an archive to save space.
+#- gzip
+This command creates a compressed file of each of the
+files specified and adds .gz extension to the files.
+#- gzip filename
+#- ls or ll (check files after compression)
+
+- To uncompress use:
+#- gunzip filename
+or
+#- gzip -d filename
+# ls or ll (check files after decompression) 
+You can also use bzip2 and bunzip2
+#- bzip2 filename
+#- bunzip2 filename or bzip2 -d filename
+
+cat /etc/profile
+Displays the contents of the file profile.
+- Using more and less command: 
+Examples: 
+#- more /etc/profile
+Displays long text files one page at a time, starting
+at the beginning.
+- Use spacebar to scroll forward one screen at a time.
+- Use Enter to scroll one line at a time.
+#- less /etc/profile
+Similar to more command but offers some extended
+capabilities, it is also faster than more as it does
+not need to read the entire file before it starts to
+show.
+
+- Using head and tail commands: 
+Examples:
+#- head /etc/profile
+By default it shows first 10 lines of the file.
+#- head -3 /etc/profile
+This will show only the first 3 lines of a file.
+#- tail /etc/profile
+By default it shows last 10 lines of the file.
+#- tail -3 /etc/profile
+This will show only the last 3 lines of a file.
+
+- Removing Files
+
+#- rm file1
+Remove file.
+#- rm -i file2
+To remove file with confirmation.
+#- rm -f file
+To remove file forcefully (no confirmation).
+- Removing directories: 
+#- rmdir dir1
+To delete an empty directory.
+#- rm -r dir1
+To delete a non empty directory recursively. 
+$- rm -rf dir1
+To remove a directory recursively and forcefully.
+
+
